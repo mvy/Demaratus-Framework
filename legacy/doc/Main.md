@@ -85,7 +85,7 @@ Schematics
 
 An application organisation design poster
 
-![Client-Server](clientserver)
+![Client-Server](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/FTSImage.png)
 
 The schematics show a communication example from client to server. The reverse
 process is also possible (that is to say, server to client) in a similar
