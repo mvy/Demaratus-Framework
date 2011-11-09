@@ -85,7 +85,7 @@ Schematics
 
 An application organisation design poster
 
-![Client-Server](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/FTSImage.png)
+![Client-Server](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/clientserver.png)
 
 The schematics show a communication example from client to server. The reverse
 process is also possible (that is to say, server to client) in a similar
@@ -188,7 +188,7 @@ regexp and automatas.
 
 A regexp object is passing through those states :
 
-![Regexp](regexp.png)
+![Regexp](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/regexp.png)
 Functions
 
 To use the regexp module, it has to be imported first
@@ -219,7 +219,7 @@ characters to come
 will return true if the regexp engine is in ACCEPT state.
 ### Filter/Terminal Stack
 
-![FTS](FTSImage.png)
+![FTS](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/FTSImage.png)
 #### Layer 1 : Binary
 
 The binary layer is the one who directly interact with the binary flow.
@@ -245,7 +245,8 @@ This module should handle problems occuring when a connection trouble appears.
 
 The packet layer is in charge of treating a packet.
 
-![Data and commands](datacmd.png)
+![Data and
+commands](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/datacmd.png)
 
 A packet is not the same unit as in the well-known TCP/IP stack. In our
 architecture, a packet is composed by 9 bits of data. Packets beginning with
@@ -301,7 +302,7 @@ Protocol
 
 The following chart paints a example of HTTP-covert communication :
 
-![Flux1](Flux1.png)
+![Flux1](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/Flux1.png)
 
 As shown on the picture, the hidden communication takes place after a TCP/IP
 connection is established. In order to make the covert client and client server
@@ -312,7 +313,7 @@ The first part of this protocol is symbolised on the following figure :
 
 ### Covert server states
 
-![Flux2](Flux2.png)
+![Flux2](https://github.com/mvy/Demaratus-Framework/raw/master/legacy/doc/Flux2.png)
 Authentification
 
 Before any data can be transmitted to the upper layers of the F/T Stack, the
